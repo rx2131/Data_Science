@@ -1,0 +1,47 @@
+---
+title: 'Project: Shiny Application and Reproducible Pitch '
+author: "Rajan Makadia"
+date: "Aug 31, 2017"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+summary(mtcars)
+```
+
+## Assignment: 
+
+- This is the final presentaion of the Course Project.
+
+- The  course is focused on  "Developing Data Products".
+
+- The main objective of the Project is to Crate a Shiny application  and Creat a presentation in Slidify or Rstudio Presenter to pitch for the application.
+
+## Application Functionality
+
+The site is providing a tool to plot values of two variables.
+It requires your inputs prefrence like miles per galon, cylinders, hp, etc. 
+It's needed to plot the graph based on the both varialbe measures selected.
+                                  
+
+## mtcars dataset
+
+The data used in this app comes from  "mtcars" dataset in RStudio. 
+
+```{r cars, echo = TRUE}
+summary(mtcars)
+```
+
+## The Application URL and Source Code:
+
+- The application can be found on Shynyapps.io website.
+https://rx2131.shinyapps.io/Assignment4/
+
+- The source code is available on GitHub Repository:
+https://github.com/rx2131/Data_Science
+
+- The presentation can be found on Rpubs
+http://rpubs.com/rx2131/Assignment4_Presentation
